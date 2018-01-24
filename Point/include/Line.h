@@ -11,6 +11,8 @@ class Line
         virtual ~Line();
         void Affiche();
         void AfficheAdresse();
+        float Taille();
+        float Angle();
 
     protected:
 

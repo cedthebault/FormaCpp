@@ -21,6 +21,7 @@ class Point
         void Set(int x,int y);
         void Translate(int dx,int dy);
         float Distance(Point *cible);
+
     protected:
 
     private:

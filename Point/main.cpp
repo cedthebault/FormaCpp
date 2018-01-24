@@ -11,8 +11,11 @@ int main()
 //    *p = new Point(3,4);
 //    p->Affiche();
     Point *p1,*p2;
-    p1=new Point(152,164);
-    p2=new Point(278,224);
+//    p1=new Point(152,164);
+//    p2=new Point(278,224);
+
+    p1=new Point(0,0);
+    p2=new Point(0,-10);
 
     p1->Affiche();
     p2->Affiche();
@@ -30,6 +33,11 @@ int main()
     l1=new Line(p1,p2);
     l1->Affiche();
     l1->AfficheAdresse();
+
+    cout<<"Taille de la ligne:"<<endl;
+    cout<<l1->Taille()<<endl;
+
+    l1->Angle();
 
     return 0;
 }

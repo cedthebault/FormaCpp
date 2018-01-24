@@ -8,7 +8,8 @@ Line::Line()
 
 Line::~Line()
 {
-    //dtor
+    //delete p1_;
+    //delete p2_;
 }
 
 Line::Line(Point *p1,Point *p2){
@@ -31,4 +32,16 @@ void Line::AfficheAdresse(){
     cout<<"P2: "<<&p2_<<endl;
     p2_.AfficheAdressesXY();
 
+}
+
+float Line::Taille(){
+    return sqrt(pow(p2_.getX()-p1_.getX(),2)+pow(p2_.getY()-p1_.getY(),2));
+}
+
+float Line::Angle(){
+     Point *pP=new Point(p2_.getX(),p1_.getY());
+
+     float angle= asin(p2_.Distance(pP)/this->Taille())*180/M_PI;
+     cout << "angle: " << angle<<endl;
+     return 0.0;
 }
