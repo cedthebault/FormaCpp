@@ -25,12 +25,10 @@ void Line::Affiche(){
 }
 
 void Line::AfficheAdresse(){
-    cout<<"Adresses:";
+    cout<<"Adresses:"<<endl;
     cout<<"P1: "<<&p1_<<endl;
-    cout<<"-- x:"<<(int*)(p1_.getX())<<endl;
-    cout<<"-- y:"<<(int*)(p1_.getY())<<endl;
+    p1_.AfficheAdressesXY();
     cout<<"P2: "<<&p2_<<endl;
-    cout<<"-- x:"<<(int*)(p2_.getX())<<endl;
-    cout<<"-- y:"<<(int*)(p2_.getY())<<endl;
+    p2_.AfficheAdressesXY();
 
 }

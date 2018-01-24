@@ -32,6 +32,11 @@ void Point::AfficheP(){
     cout<<"("<<x_<<","<<y_<<")";
 }
 
+void Point::AfficheAdressesXY(){
+    cout<<"-- x:"<<&x_<<endl;
+    cout<<"-- y:"<<&y_<<endl;
+}
+
 void Point::Saisir(){
     cout<<"x?"<<endl;
     cin>>x_;

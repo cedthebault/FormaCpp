@@ -16,16 +16,17 @@ class Point
         int getY();
         void Affiche();
         void AfficheP();
+        void AfficheAdressesXY();
         void Saisir();
         void Set(int x,int y);
         void Translate(int dx,int dy);
         float Distance(Point *cible);
-
     protected:
 
     private:
         int x_;
         int y_;
+
 };
 
 #endif // POINT_H

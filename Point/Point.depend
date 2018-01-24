@@ -1,15 +1,15 @@
 # depslib dependency file v1.0
-1516803419 source:c:\users\administrateur\desktop\workspace\point\main.cpp
+1516805001 source:c:\users\administrateur\desktop\workspace\point\main.cpp
 	"Line.h"
 
-1516802876 c:\users\administrateur\desktop\workspace\point\include\point.h
+1516805047 c:\users\administrateur\desktop\workspace\point\include\point.h
 	<iostream>
 	<cmath>
 
-1516802893 source:c:\users\administrateur\desktop\workspace\point\src\point.cpp
+1516804886 source:c:\users\administrateur\desktop\workspace\point\src\point.cpp
 	"Point.h"
 
-1516803618 source:c:\users\administrateur\desktop\workspace\point\src\line.cpp
+1516804913 source:c:\users\administrateur\desktop\workspace\point\src\line.cpp
 	"Line.h"
 
 1516803436 c:\users\administrateur\desktop\workspace\point\include\line.h
