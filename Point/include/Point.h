@@ -15,10 +15,11 @@ class Point
         int getX();
         int getY();
         void Affiche();
+        void AfficheP();
         void Saisir();
+        void Set(int x,int y);
         void Translate(int dx,int dy);
         float Distance(Point *cible);
-
 
     protected:
 

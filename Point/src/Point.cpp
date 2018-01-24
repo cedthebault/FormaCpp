@@ -28,6 +28,10 @@ void Point::Affiche(){
     cout<<"(x,y):"<<x_<<","<<y_<<endl;
 }
 
+void Point::AfficheP(){
+    cout<<"("<<x_<<","<<y_<<")";
+}
+
 void Point::Saisir(){
     cout<<"x?"<<endl;
     cin>>x_;
@@ -42,4 +46,9 @@ void Point::Translate(int dx,int dy){
 
 float Point::Distance(Point *cible){
     return sqrt(pow(cible->getX()-x_,2)+pow(cible->getY()-y_,2));
+}
+
+void Point::Set(int x,int y){
+    x_=x;
+    y_=y;
 }
