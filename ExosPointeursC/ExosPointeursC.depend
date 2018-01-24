@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1516797135 source:c:\users\administrateur\desktop\workspace\exospointeursc\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<string.h>
+	<unistd.h>
+	<time.h>
+	<windows.h>
+

@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1516696158 source:c:\users\administrateur\desktop\workspace\hello\main.cpp
+	<iostream>
+	<vector>
+	<stdlib.h>
+	<cstdlib>
+	<time.h>
+
+1516631952 source:c:\users\administrateur\desktop\workspace\hello\tri.cpp
+

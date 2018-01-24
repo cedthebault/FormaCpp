@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1516714786 source:c:\users\administrateur\desktop\workspace\teststructures\main.cpp
+	<iostream>
+	<vector>
+	<stdlib.h>
+	<cstdlib>
+	<time.h>
+

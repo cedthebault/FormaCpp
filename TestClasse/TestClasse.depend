@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1516722635 source:c:\users\administrateur\desktop\workspace\testclasse\src\ficheetudiant.cpp
+	"FicheEtudiant.h"
+
+1516722030 c:\users\administrateur\desktop\workspace\testclasse\include\ficheetudiant.h
+	<vector>
+	<iostream>
+	<stdlib.h>
+
+1516722721 source:c:\users\administrateur\desktop\workspace\testclasse\src\promo.cpp
+	"Promo.h"
+
+1516721911 c:\users\administrateur\desktop\workspace\testclasse\include\promo.h
+	"FicheEtudiant.h"
+
+1516722760 source:c:\users\administrateur\desktop\workspace\testclasse\main.cpp
+	"Promo.h"
+
