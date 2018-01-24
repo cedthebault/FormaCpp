@@ -57,3 +57,8 @@ void Point::Set(int x,int y){
     x_=x;
     y_=y;
 }
+
+Point Point::operator+(Point const& p1,Point const& p2){
+    return Point(p1.getX()+p2.getX(),p1.getY()+p2.getY());
+}
+

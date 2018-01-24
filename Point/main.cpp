@@ -20,6 +20,9 @@ int main()
     p1->Affiche();
     p2->Affiche();
 
+    Point p3=*p1+*p2;
+    p3.Affiche();
+
     cout<<p1->Distance(p2)<<endl;
     cout<<p2->Distance(p1)<<endl;
 
