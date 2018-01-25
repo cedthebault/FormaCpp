@@ -58,7 +58,7 @@ void Point::Set(int x,int y){
     y_=y;
 }
 
-Point Point::operator+(Point const& p1,Point const& p2){
-    return Point(p1.getX()+p2.getX(),p1.getY()+p2.getY());
+Point Point::operator+(Point p1){
+    return Point(p1.getX()+this->getX(),p1.getY()+this->getY());
 }
 
