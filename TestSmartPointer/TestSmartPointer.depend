@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1516885417 source:c:\users\administrateur\desktop\workspace\testsmartpointer\main.cpp
+	"Task.h"
+
+1516879052 c:\users\administrateur\desktop\workspace\testsmartpointer\include\task.h
+	<memory>
+	<iostream>
+
+1516879087 source:c:\users\administrateur\desktop\workspace\testsmartpointer\src\task.cpp
+	"Task.h"
+

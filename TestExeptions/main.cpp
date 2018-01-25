@@ -6,8 +6,8 @@ using namespace std;
 int valueAt(vector<int> t,int index){
     try{
         return t.at(index);
-    }catch(const exception & e){
-        cerr<<"::valueAt::";
+    }catch( exception const& e){
+        cerr<<"BadIndex::valueAt::";
         throw e;
     }
 //    if(index>=)
@@ -20,8 +20,7 @@ int main()
     try{
         cout << valueAt(tab,2)<<endl;
         cout << valueAt(tab,15)<<endl;
-    }catch(const exception & e){
-        cerr << "Soushis !!!!!";
+    }catch( exception const& e){
         cerr << e.what();
     }
     return 0;
