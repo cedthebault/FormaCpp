@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1516960818 source:c:\users\administrateur\desktop\workspace\rtti\src\ouvrier.cpp
+	"Ouvrier.h"
+
+1516960925 c:\users\administrateur\desktop\workspace\rtti\include\ouvrier.h
+	<Employe.h>
+
+1516960361 c:\users\administrateur\desktop\workspace\rtti\include\employe.h
+	<iostream>
+
+1516960917 source:c:\users\administrateur\desktop\workspace\rtti\src\pdg.cpp
+	"Pdg.h"
+
+1516960881 c:\users\administrateur\desktop\workspace\rtti\include\pdg.h
+	<Employe.h>
+
+1516960137 source:c:\users\administrateur\desktop\workspace\rtti\src\employe.cpp
+	"Employe.h"
+
+1516961012 source:c:\users\administrateur\desktop\workspace\rtti\main.cpp
+	"Employe.h"
+	"Commercial.h"
+	"Ouvrier.h"
+	"Pdg.h"
+
+1516960673 c:\users\administrateur\desktop\workspace\rtti\include\commercial.h
+	<Employe.h>
+
+1516960720 source:c:\users\administrateur\desktop\workspace\rtti\src\commercial.cpp
+	"Commercial.h"
+

@@ -1,97 +1,9 @@
-#include <iostream>
 
-using namespace std;
+#include "Employe.h"
+#include "Commercial.h"
+#include "Ouvrier.h"
+#include "Pdg.h"
 
-class Employe
-{
-protected:
-    float salaireFixe;
-public:
-    Employe()
-    {
-        cout<<"Employe::ConstructeurParDef"<<endl;
-        salaireFixe=0;
-    }
-    Employe(float salaire)
-    {
-        salaireFixe=salaire;
-        cout<<"Employe::ConstructeurSalaire"<<endl;
-    }
-    virtual ~Employe(){
-        cout<<"Employe::DestructeurParDef"<<endl;
-    }
-
-    virtual void Salaire()
-    {
-        cout<<"Employe::Salaire():"<<salaireFixe<<endl;
-    }
-};
-
-class Commercial :public Employe
-{
-private:
-    float prime_;
-public:
-    Commercial()
-    {
-        cout<<"Commercial::ConstructeurParDef"<<endl;
-        prime_=0;
-    }
-    Commercial(float fixe,float prime):Employe(fixe)
-    {
-        prime_=prime;
-        cout<<"Commercial::ConstructeurSalaire"<<endl;
-    }
-    ~Commercial(){cout<<"Commercial::Destructeur"<<endl;}
-    void Salaire()
-    {
-        cout<<"Commercial::Salaire():"<<salaireFixe+prime_<<endl;
-    }
-};
-
-class Ouvrier :public Employe
-{
-public:
-    Ouvrier()
-    {
-        cout<<"Ouvrier::ConstructeurParDef"<<endl;
-    }
-    Ouvrier(float sal):Employe(sal)
-    {
-        cout<<"Ouvrier::ConstructeurSalaire"<<endl;
-    }
-    ~Ouvrier(){cout<<"Ouvrier::Destructeur"<<endl;}
-    void Salaire()
-    {
-        cout<<"Ouvrier::Salaire():"<<salaireFixe<<endl;
-    }
-};
-
-class Pdg :public Employe
-{
-private:
-    float dividende_;
-public:
-    Pdg()
-    {
-        cout<<"Pdg::ConstructeurParDef"<<endl;
-        dividende_=0;
-    }
-    Pdg(float fixe,float dividende):Employe(fixe)
-    {
-        dividende_=dividende;
-        cout<<"Pdg::ConstructeurSalaire"<<endl;
-    }
-    ~Pdg(){cout<<"Pdg::Destructeur"<<endl;}
-    void Salaire()
-    {
-        cout<<"Pdg::Salaire():"<<salaireFixe+dividende_<<endl;
-    }
-    void Test()
-    {
-        cout<<"Pdg::Test():"<<endl;
-    }
-};
 
 int main()
 {
@@ -136,7 +48,8 @@ int main()
     cout<<endl<<"-------------------------"<<endl;
     Employe *t3 = new Pdg(1200.2,500);
     t3->Salaire();
-    t3->Test();
+    //Test plante volontairement:
+    //t3->Test();
 
 
     return 0;
