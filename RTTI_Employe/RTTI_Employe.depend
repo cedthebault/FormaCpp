@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1516961398 source:c:\users\administrateur\desktop\workspace\rtti_employe\main.cpp
+	<iostream>
+	<string>
+	<vector>
+	<memory>
+
